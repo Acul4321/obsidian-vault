@@ -52,8 +52,7 @@
               "title": "Algorithm"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,13 +250,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "08a9c4c2bed2084c",
+  "active": "09353701d0b16f0c",
   "lastOpenFiles": [
-    "Main/sets.md",
+    "Main/vim_commands.md",
     "Index/Algorithm.md",
+    "Main/sets.md",
     "Index/Graphs.md",
     "Main/time_complexity.md",
-    "Main/vim_commands.md",
     "Main/Predicates.md",
     "Main/Power_Set_Size.md",
     "Main/Number_sets.md",

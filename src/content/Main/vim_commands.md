@@ -7,3 +7,4 @@ category: "[[]]"
 # Vim Commands
 y  : copy
 p : paste
+v : visual mode

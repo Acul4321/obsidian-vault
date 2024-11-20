@@ -169,10 +169,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index/Algorithm.md"
+                "file": "Category/Propositional_Logic.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Algorithm"
+              "title": "Outline of Propositional_Logic"
             }
           },
           {
@@ -181,8 +181,8 @@
             "state": {
               "type": "code-execute-manage-executors",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "command-glyph",
+              "title": "Execution Runtimes"
             }
           },
           {
@@ -250,10 +250,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "09353701d0b16f0c",
+  "active": "57945739a946c11e",
   "lastOpenFiles": [
-    "Main/vim_commands.md",
     "Index/Algorithm.md",
+    "Main/vim_commands.md",
+    "Category/Propositional_Logic.md",
     "Main/sets.md",
     "Index/Graphs.md",
     "Main/time_complexity.md",
@@ -265,7 +266,6 @@
     "Main/Compound_Propositions.md",
     "Category/sorting_algorithms.md",
     "Category/searching_algorithms.md",
-    "Category/Propositional_Logic.md",
     "Category/Operating_Systems.md",
     "Category/data_structures.md",
     "Category/Networks.md",

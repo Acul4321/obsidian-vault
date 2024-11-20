@@ -5,3 +5,5 @@ tags:
 category: "[[]]"
 ---
 # Vim Commands
+y  : copy
+p : paste

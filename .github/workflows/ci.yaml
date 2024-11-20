@@ -64,12 +64,12 @@ jobs:
         run: |
           npm install
           npx quartz build
-        working-directory: ./source
+        working-directory: ./src
 
       - name: Copy raw HTML folder
         run: |
           cp -r raw_html/* public/
-        working-directory: ./source
+        working-directory: ./src
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v3
@@ -77,7 +77,7 @@ jobs:
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./source/public
+          path: ./src/public
 
       - name: Deploy to GitHub Pages
         id: deployment

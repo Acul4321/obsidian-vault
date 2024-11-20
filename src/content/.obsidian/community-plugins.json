@@ -1,3 +1,23 @@
 [
-  "obsidian-git"
+  "code-styler",
+  "obsidian-minimal-settings",
+  "obsidian-auto-pair-chinese-symbol",
+  "calendar",
+  "dataview",
+  "obsidian-excalidraw-plugin",
+  "execute-code",
+  "obsidian-furigana",
+  "obsidian-kanban",
+  "obsidian-markdown-furigana",
+  "obsidian-latex-environments",
+  "quick-latex",
+  "obsidian-tasks-plugin",
+  "obsidian-vimrc-support",
+  "japanese-word-splitter",
+  "cm-chs-patch",
+  "obsidian-pangu",
+  "obsidian-style-settings",
+  "obsidian-git",
+  "templater-obsidian",
+  "obsidian-latex-suite"
 ]

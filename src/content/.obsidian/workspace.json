@@ -1,62 +1,85 @@
 {
   "main": {
-    "id": "2e9225e34664efd4",
+    "id": "00c026d8424b14f7",
     "type": "split",
     "children": [
       {
-        "id": "0571c1c94d829fac",
+        "id": "28db7b80a3bb492a",
         "type": "tabs",
         "children": [
           {
-            "id": "47ef711f7e8c1d64",
+            "id": "09353701d0b16f0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Category/Propositional_Logic.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Propositional_Logic"
             }
           },
           {
-            "id": "2d8837e6263008e3",
+            "id": "08a9c4c2bed2084c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "category-folder/Some note.md",
+                "file": "Main/sets.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "sets"
+            }
+          },
+          {
+            "id": "b5c3b3f176f82136",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index/Algorithm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Algorithm"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1243752a4df710bb",
+    "id": "025a9651e9651210",
     "type": "split",
     "children": [
       {
-        "id": "8a4c81639dc8783e",
+        "id": "058b8b4d15db6efb",
         "type": "tabs",
         "children": [
           {
-            "id": "b77831b90dd9f87b",
+            "id": "22cb656b6974ab03",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
-            "id": "0829eb50dbb8a2b3",
+            "id": "d3dcb44e7737f70f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,15 +90,19 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
-            "id": "436d75c49c949463",
+            "id": "4af018dfc61dac3c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,20 +112,20 @@
     "width": 300
   },
   "right": {
-    "id": "ba1ec06a672fb227",
+    "id": "d490aa60689d2931",
     "type": "split",
     "children": [
       {
-        "id": "6cea78168fbf9ccd",
+        "id": "f8389e3e22e6bd2f",
         "type": "tabs",
+        "dimension": 38.272816486751715,
         "children": [
           {
-            "id": "2aa5a4c073617928",
+            "id": "aa02a8cdf35ae826",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "category-folder/Some note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,65 +133,169 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
-            "id": "5acb7020384970a8",
+            "id": "9a7d0c749f87e7ad",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "category-folder/Some note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "f850ba7e9e699bea",
+            "id": "77cbe361f8e4d1c6",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
-            "id": "2d9129bb8dcf7983",
+            "id": "645f64065a4f20fc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "category-folder/Some note.md"
-              }
+                "file": "Index/Algorithm.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Algorithm"
+            }
+          },
+          {
+            "id": "7a672c4297fce2b7",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {},
+              "icon": "command-glyph",
+              "title": "Execution Runtimes"
+            }
+          },
+          {
+            "id": "57945739a946c11e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "a2cbd8a1a9adc88c",
+        "type": "tabs",
+        "dimension": 34.24926398429833,
+        "children": [
+          {
+            "id": "04a9df6ffac72430",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d1a128fd73360563",
+        "type": "tabs",
+        "dimension": 27.47791952894995,
+        "children": [
+          {
+            "id": "477fb884671e1c01",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 340.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d8837e6263008e3",
+  "active": "22cb656b6974ab03",
   "lastOpenFiles": [
-    "category-folder/index.md",
-    "category-folder/Some note.md",
-    "index.md",
-    "category-folder"
+    "Index/Graphs.md",
+    "Index/Algorithm.md",
+    "Main/time_complexity.md",
+    "Main/vim_commands.md",
+    "Main/Predicates.md",
+    "Main/Power_Set_Size.md",
+    "Main/Number_sets.md",
+    "Main/Membership_Table.md",
+    "Main/Connectives.md",
+    "Main/Compound_Propositions.md",
+    "Category/sorting_algorithms.md",
+    "Category/searching_algorithms.md",
+    "Category/Propositional_Logic.md",
+    "Category/Operating_Systems.md",
+    "Category/data_structures.md",
+    "Category/Networks.md",
+    "Main/sets.md",
+    "Main/graphTest.md",
+    "Main/Logical_Equivalence.md",
+    "Main/Propositions.md",
+    "Main/Quantifiers.md",
+    "Main/Set_Equivalence.md",
+    "Main/Untitled.md",
+    "Template/category.md",
+    "Template/main/course_starter.md",
+    "Attachments/membershipTableSet.png",
+    "Attachments/subsetPowerSet.png",
+    "Main/Quantifier.md",
+    "Attachments/propositionalLogicBiconditional.png",
+    "Attachments/propositionalLogicImplies.png",
+    "Attachments/propositionalLogicAnd.png",
+    "Attachments/propositionalLogicXor.png",
+    "Attachments",
+    "Attachments/propositionalLogicOr.png",
+    "Attachments/propositionalLogicNegation.png",
+    "Template/index",
+    "Template/category",
+    "course",
+    "Template/main",
+    "Template/math",
+    "Template/code",
+    "Index",
+    "Category",
+    "Main"
   ]
 }

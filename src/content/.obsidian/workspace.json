@@ -23,36 +23,22 @@
             }
           },
           {
-            "id": "08a9c4c2bed2084c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main/vim_commands.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "vim_commands"
-            }
-          },
-          {
             "id": "b5c3b3f176f82136",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index/Algorithm.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorithm"
+              "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,11 +236,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "57945739a946c11e",
+  "active": "b5c3b3f176f82136",
   "lastOpenFiles": [
-    "Index/Algorithm.md",
     "Main/vim_commands.md",
     "Category/Propositional_Logic.md",
+    "Category/Networks.md",
+    "Category/data_structures.md",
+    "Index/Algorithm.md",
     "Main/sets.md",
     "Index/Graphs.md",
     "Main/time_complexity.md",
@@ -267,8 +255,6 @@
     "Category/sorting_algorithms.md",
     "Category/searching_algorithms.md",
     "Category/Operating_Systems.md",
-    "Category/data_structures.md",
-    "Category/Networks.md",
     "Main/graphTest.md",
     "Main/Logical_Equivalence.md",
     "Main/Propositions.md",

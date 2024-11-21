@@ -2,6 +2,14 @@
 title: My GitHub Pages Notebook!
 ---
 
-Hello world!
+Hello, My name is Luca,
 
-Write some words here!
+I am a University of Glasgow Computing Science Student who is wayy too invested in Competitive Programming.
+
+These are my notes for School, hobbies and overall life.
+
+
+My Zettelkasten has the overall structure:
+- Index
+   - Category
+    - Main

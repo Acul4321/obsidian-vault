@@ -1,7 +1,6 @@
 ---
 date: <% tp.date.now() %> <% tp.date.now("HH:MM") %>
-tags:
-  - "#course"
+tags: []
 category: "[[]]"
 ---
 # <% tp.file.title %>

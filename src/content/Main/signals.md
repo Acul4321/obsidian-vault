@@ -33,3 +33,6 @@ digital signals in computing systems use binary encoding with two symbols **0,1*
 ##### Non-binary Encoding in Networks
 Networked systems often use more complex encoding schemes(wireless links may use modulation schemes with 16,64 or 256 symbols)
 - **Baud Rate**: The number of symbols transmitted per second(different from [[bit_rate|bit rate]])
+
+**NRZ modulation** (Non Return to Zero Modulation):
+	A method of encoding digital data for transmission where the signal does not return to zero voltage between bits

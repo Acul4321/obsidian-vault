@@ -16,3 +16,4 @@ Organizes communication systems into a series of layers to simplify network desi
 A conceptual framework used to understand and implement network communication between different systems.
 It divides the networking process into seven distinct layers, each with specific functions and protocols.
 ###### PDNTSPA^[Please Do Not Throw Salted Peanuts Away, remembering the OSI model]
+![[OSIReferenceModel.png]]

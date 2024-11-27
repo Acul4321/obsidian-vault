@@ -46,4 +46,24 @@ The process of applying a carrier wave to a channel at a specific frequency(C)
 used in *wireless links*
 can also be used in *wired links*(how ADS^[Asymmetric Digital Subscriber Line, A type of DSL technology used for transmitting digital data over traditional copper telephone lines, offering higher download speeds than upload speeds] and voice telephone share the same line)
 
-### Bandwidth of a channel
+### Bandwidth & Signal Capacity
+Determines the frequency range it can transport
+Based on physical properties of the channel, design of the end points
+#### Digital Sampling
+**the (Nyquist's) sampling theorem** : needs 2H samples per second to accurately digitise an analogue signal
+- $$R_{max} = 2H\log_{2}V$$
+	- $R_{max}$: Maximum transmission rate of channel (bits per second) 
+	- $H$: Bandwidth (Hz) 
+	- $V$: number of discrete values per symbol 
+	- **Assumption**: perfect, noise-free channel
+
+
+### Noise & Signal-to-Noise Ratio
+Real world noise includes:
+- Electrical interference, cosmic radiation, thermal noise, etc.
+##### Computing the Signal-to-noise Ratio(**$\frac{s}{n}$** or SNR^[SNR (Signal-to-Noise Ratio) ▪ The ratio of the Signal Power (S) to the Noise Floor (N)])
+- Typically quoted in decibels(dB): $10\log_{10} \frac{s}{n}$
+
+##### Shannon's Theorem
+The maximum transmission rate of a channel grows logarithmically to the SNR:
+$$R_{max} = H\log_{2}\left( 1+ \frac{s}{n} \right)$$

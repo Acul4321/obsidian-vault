@@ -18,6 +18,7 @@ tags:
 [[Physical_Layer|Physical Layer]]
 [[Data_Link_Layer|Data Link Layer]]
 [[Network_Layer|Network Layer]]
+- [[Internet]]
 [[Transport_Layer|Transport Layer]]
 
 Routing

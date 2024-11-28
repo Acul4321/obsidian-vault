@@ -11,64 +11,13 @@
             "id": "553e48b5722dd037",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main/Transport_Layer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transport_Layer"
-            }
-          },
-          {
-            "id": "80b29183c4d0033f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main/Transport_Layer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transport_Layer"
-            }
-          },
-          {
-            "id": "9bc740bd9955b107",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main/TCP.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TCP"
-            }
-          },
-          {
-            "id": "2addeb191106c7a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main/UDP.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UDP"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,15 +189,10 @@
             "id": "477fb884671e1c01",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Index"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -271,16 +215,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9bc740bd9955b107",
+  "active": "553e48b5722dd037",
   "lastOpenFiles": [
+    "Category/Networks.md",
+    "Main/Transport_Layer.md",
     "Main/UDP.md",
     "Main/TCP.md",
-    "Main/Transport_Layer.md",
+    "Template/Index.md",
+    "Attachments/UDPvsTCPTable.png",
     "Main/SCTP.md",
     "Main/QUIC.md",
     "Main/DCCP.md",
-    "Template/Index.md",
-    "Category/Networks.md",
     "Main/Internet.md",
     "Main/Routing.md",
     "Main/Network_Layer.md",
@@ -304,11 +249,9 @@
     "Attachments/Pasted image 20241126142230.png",
     "Attachments/packetSwitchedNetwork.png",
     "Attachments/circuitSwitchedNetwork.png",
-    "Attachments/OSIReferenceModel.png",
     "Main/Membership_Table.md",
     "Category/Operating_Systems.md",
     "Category/data_structures.md",
-    "Category/Propositional_Logic.md",
     "Attachments",
     "Template/index",
     "Template/category",

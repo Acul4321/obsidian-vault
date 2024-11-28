@@ -55,10 +55,32 @@ The transport layer uses one of the defining principles of the internet called t
 The Internet Protocol provides a common base for various transports
 ### [[UDP|UDP (User Datagram Protocol)]]
 ### [[TCP|TCP (Transmission Control Protocol)]]
+
+### UDP vs TCP
+![[UDPvsTCPTable.png]]
+
+| **UDP Applications**                                          | **TCP Applications**                                                                                |
+| ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Useful for applications that prefer timeliness to reliability | Useful for applications that require reliable data delivery, and can tolerate some timing variation |
+| Must be able to tolerate some loss of data(Streaming video)   | Default choice for most applications(Email)                                                         |
+| Must be able to adapt to congestion in the application layer  |                                                                                                     |
+
 ### [[DCCP|DCCP (Datagram Congestion Control Protocol)]]
 ### [[SCTP|SCTP (Stream Control Transmission Protocol)]]
 ### [[QUIC]]
 
+## Deployment Considerations
+firewalls perform “deep packet inspection” and look beyond the IP header to make policy decisions
+- The only secure policy is to disallow anything not understood
+- Implication: very difficult to deploy new transport protocols (eg. DCCP and SCTP)
+- Implication: limits future evolution of the network
+If protocols can be cannot be deployed natively, they can be tunneled
+- WebRTC data channel → SCTP over DLTS over UDP
+	- Peer-to-peer data for web applications
+- QUIC → multiplexed stream transport protocol running over UDP
+- UDP passes through NATs and firewalls, that native transport protocols do not
+	- So tunnel new transport inside UDP packets
 ##### Terminology
 QoS (Quality of Service)^[*QoS (Quality of Service)* | Ensures network performance meets application needs, like low latency or high bandwidth | Tailors service quality to application demands, balancing speed, reliability and order]
 API (Application Programming Interface)^[*API (Application Programming Interface)* Defines how software components interact, allowing applications to use network services easily | Provides a standardised interface, like the Berkeley sockets API, for accessing transport and network layers]
+AIMD (Additive Increase Multiplicative Decrease)^[AIMD (Additive Increase Multiplicative Decrease) A congestion control algorithm used in TCP | Increases the transmission rate gradually (additive increase) until congestion is detected | Reduces the transmission rate sharply (multiplicative decrease) upon detecting packet loss or congestion]

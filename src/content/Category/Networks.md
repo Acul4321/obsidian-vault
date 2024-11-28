@@ -21,7 +21,11 @@ tags:
 - [[Internet]]
 - [[Routing]]
 [[Transport_Layer|Transport Layer]]
-
+- [[UDP|UDP (User Datagram Protocol)]]
+- [[TCP|TCP (Transmission Control Protocol)]]
+- [[DCCP|DCCP (Datagram Congestion Control Protocol)]]
+- [[SCTP|SCTP (Stream Control Transmission Protocol)]]
+- [[QUIC]]
 %% Session_Layer
 Presentation_Layer
 Application_Layer %%

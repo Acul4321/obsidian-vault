@@ -18,6 +18,11 @@ comprised of a set of Interconnected [[Networks]] using [[Network_Layer|Network 
 		- handles framing, addressing, flow control, error detection and correction
 		- Minimise the need for translation between different technologies
 
+## End-to-end Principle
+ application-specific functions should be carried out at the endpoints of a communication path. This means that the network itself should be kept simple and only provide basic data transmission capabilities, while more complex tasks such as error checking, data integrity, and security should be handled by the end systems.
+- **Efficiency:** Only essential functions should be placed within the network. All other functionalities should be handled by the end systems. Also ensures the application has full visibility and control over these functions.
+- **Flexibility:** Endpoints can implement specific functions tailored to their needs without requiring changes to the network infrastructure.
+- **Reliability:** End-to-end error checking and correction ensure that data integrity is maintained regardless of the network's state, as endpoints can detect and correct errors. Reliability should be implemented in the transport layer, not the network layer. This way, even if the network cannot guarantee 100% reliability, the application can perform its own checks and ensure data integrity.
 ## The internet Protocol
 IP provides an abstraction layer
 - Transport protocols and applications above

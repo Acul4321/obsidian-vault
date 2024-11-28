@@ -236,11 +236,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2b05febae3247914",
+  "active": "477fb884671e1c01",
   "lastOpenFiles": [
-    "Main/Network.md",
-    "Category/Networks.md",
     "Main/Routing.md",
+    "Category/Networks.md",
+    "Main/Network.md",
     "Main/signals.md",
     "Main/Internet.md",
     "Main/Network_Layer.md",

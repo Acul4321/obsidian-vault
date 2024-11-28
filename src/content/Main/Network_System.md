@@ -3,7 +3,7 @@ date: 2024-11-26 14:11
 tags:
   - Networks
   - computing
-category: "[[]]"
+category: "[[Networks]]"
 ---
 # Network System
 All network systems are built using the basic components:

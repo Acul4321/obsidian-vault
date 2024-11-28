@@ -3,7 +3,7 @@ date: 2024-11-26 14:11
 tags:
   - Networks
   - computing
-category: "[[]]"
+category: "[[Networks]]"
 ---
 # Network Protocols
 a protocol will comprise different types of messages, known as **protocol data units(PDUs)**^[A unit of data specified in a protocol of a given layer in the OSI model.]

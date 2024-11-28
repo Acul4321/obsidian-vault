@@ -3,6 +3,7 @@ date: 2024-11-27 11:11
 tags:
   - Networks
   - computing
+  - OSImodel
 category: "[[Networks]]"
 ---
 # Data Link Layer

@@ -3,6 +3,7 @@ date: 2024-11-27 13:11
 tags:
   - Networks
   - computing
+  - OSImodel
 category: "[[Networks]]"
 ---
 # Network Layer

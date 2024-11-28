@@ -3,6 +3,7 @@ date: 2024-11-26 15:11
 tags:
   - Networks
   - computing
+  - OSImodel
 category: "[[Networks]]"
 ---
 # Physical Layer

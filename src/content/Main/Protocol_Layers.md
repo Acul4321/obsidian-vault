@@ -3,7 +3,8 @@ date: 2024-11-26 15:11
 tags:
   - Networks
   - computing
-category: "[[]]"
+  - OSImodel
+category: "[[Networks]]"
 ---
 # Protocol Layers
 Organizes communication systems into a series of layers to simplify network design and functionality.

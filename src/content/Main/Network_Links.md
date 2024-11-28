@@ -3,7 +3,7 @@ date: 2024-11-26 13:11
 tags:
   - Networks
   - computing
-category: "[[]]"
+category: "[[Networks]]"
 ---
 # Network Links
 - The combination of signal and channel^[signals are transmitted via channels] form a *Link*.

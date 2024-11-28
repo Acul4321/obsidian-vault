@@ -42,3 +42,10 @@ IP provides an abstraction layer
 
 ### versions
 there are **IPv4**(current version) and **IPv6**(next generation internet)
+
+| IPv4                                                  | IPv6                                                                                     |
+| ----------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| address are 32 bits<br>Example: 130.209.241.197       | address are 128 bits<br>Example: 2001:4860:4860::8844                                    |
+| contains header checksum                              | does not contain header checksum(Assumes the data is protected by a link layer checksum) |
+| reaching the end of its life - insufficient addresses | will be a long term replacement of IPv4                                                  |
+| $2^{32} = 4,294,967,296$ addresses                    | $2^{128} = 340,282,366,920,938,463,463,374$ addresses                                    |

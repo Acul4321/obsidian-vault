@@ -19,9 +19,8 @@ tags:
 [[Data_Link_Layer|Data Link Layer]]
 [[Network_Layer|Network Layer]]
 - [[Internet]]
+- [[Routing]]
 [[Transport_Layer|Transport Layer]]
-
-Routing
 
 %% Session_Layer
 Presentation_Layer

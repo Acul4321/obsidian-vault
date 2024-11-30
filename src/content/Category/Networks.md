@@ -19,6 +19,7 @@ tags:
 [[Data_Link_Layer|Data Link Layer]]
 [[Network_Layer|Network Layer]]
 - [[Internet]]
+	- [[Network_address_translation|Network address translation]]
 - [[Routing]]
 [[Transport_Layer|Transport Layer]]
 - [[UDP|UDP (User Datagram Protocol)]]
@@ -29,3 +30,7 @@ tags:
 %% Session_Layer
 Presentation_Layer
 Application_Layer %%
+
+#### Privacy and Security
+[[Cryptography]]
+[[Security_Protocol|Security Protocol]]

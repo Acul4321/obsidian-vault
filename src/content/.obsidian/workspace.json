@@ -11,15 +11,10 @@
             "id": "e7e3c68d3152c38d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Category/Programming_Design_Principles.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Programming_Design_Principles"
+              "title": "New tab"
             }
           }
         ]
@@ -222,8 +217,10 @@
   },
   "active": "e7e3c68d3152c38d",
   "lastOpenFiles": [
-    "Category/Object_Oriented_Programming.md",
+    "Index/Algorithm.md",
+    "Index/Graphs.md",
     "Category/Programming_Design_Principles.md",
+    "Category/Object_Oriented_Programming.md",
     "Category/Operating_Systems.md",
     "Category/Propositional_Logic.md",
     "Category/data_structures.md",
@@ -250,8 +247,6 @@
     "Template/Index.md",
     "Attachments/UDPvsTCPTable.png",
     "Main/SCTP.md",
-    "Main/QUIC.md",
-    "Main/DCCP.md",
     "Attachments/VectorProtocolDiagram.png",
     "Attachments/MFBitDiagram.png",
     "Attachments/hourglassProtocolStack.png",

@@ -11,10 +11,15 @@
             "id": "e7e3c68d3152c38d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Category/Programming_Fundamentals.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Programming_Fundamentals"
             }
           }
         ]

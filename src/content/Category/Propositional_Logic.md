@@ -1,6 +1,7 @@
 ---
 tags:
   - propositionalLogic
+  - computing
 ---
 ## Propositional Logic
 #### Statements

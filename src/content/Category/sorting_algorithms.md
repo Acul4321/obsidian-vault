@@ -1,7 +1,7 @@
 ---
 tags:
   - computing
-  - algorithm
+  - sortingAlgorithm
 ---
 ## Sorting Algorithms
 

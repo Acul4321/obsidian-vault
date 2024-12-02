@@ -1,7 +1,7 @@
 ---
 tags:
   - computing
-  - algorithm
+  - searchingAlgorithm
 ---
 ## searching_algorithms
 

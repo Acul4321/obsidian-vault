@@ -35,3 +35,8 @@ if function $f$ is bijective it is *both* **Injective** and **Surjective**:
 ![[BijectiveFunction.png|400]]
 ## Inverse
 for an **inverse** of a function to exist there **must** be a **Bijection**. 
+The inverse of a function *Undos* the mapping of the Original function.
+### Inverse function Properies
+for the function $f:X \rightarrow Y$
+$$( f(f^{-1}(y)) = y) \forall y \in Y$$
+$$( f^{-1}(f(x)) = x) \forall x \in X$$

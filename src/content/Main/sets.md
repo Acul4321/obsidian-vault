@@ -44,10 +44,10 @@ Sets can be compared by using [[Set_Equivalence|Set Equivalence]].
 ##### Symmetric Deference($\oplus$)
 - the set of elements $x$ where, $x$ is in $A$ and not in $B$, or $X$ is in $B$ and not in $A$
 	- ${A}\oplus{B} = ({A}\setminus{B})\cup({B}\setminus{A})$
-	- Cardinality($\lvert{S}\rvert$)
-	- the number of elements in a set.
-		- for **finite sets**, this is a non-negative integer. 
-		- for **infinite sets**, cardinality refers to the size of the infinity (e.g. countable vs. uncountable infinity).
+##### Cardinality($\lvert{S}\rvert$)
+- the number of elements in a set.
+	- for **finite sets**, this is a non-negative integer. 
+	- for **infinite sets**, cardinality refers to the size of the infinity (e.g. countable vs. uncountable infinity).
 ##### Power set(${P(S)}$)
 - the set of all subsets of S(the empty set counts as a subset)
 ##### Compliment

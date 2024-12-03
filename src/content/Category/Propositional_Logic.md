@@ -15,3 +15,4 @@ tags:
 [[sets]] *set definition used for this course, originally for maths*
 [[Set_Equivalence|set equivalence]]
 #### functions
+[[functions]]

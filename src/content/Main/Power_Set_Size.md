@@ -2,7 +2,8 @@
 date: 2024-11-03 17:11
 tags:
   - mathmatics
-category: "[[]]"
+  - sets
+category: "[[sets]]"
 ---
 # Power Set Size
 if $\lvert{S}\rvert = n$, what is the size of P(S)

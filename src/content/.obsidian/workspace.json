@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Category/Programming_Fundamentals.md",
+                "file": "Main/functions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Programming_Fundamentals"
+              "title": "functions"
             }
           }
         ]
@@ -222,15 +222,24 @@
   },
   "active": "e7e3c68d3152c38d",
   "lastOpenFiles": [
+    "Attachments/BijectiveFunction.png",
+    "Attachments/SurjectiveFunction.png",
+    "Main/functions.md",
+    "Attachments/SurjectiveFunction.png",
+    "Attachments/InjectiveFunction.png",
+    "Attachments/injectiveFunctionDiagram.png",
+    "Category/Propositional_Logic.md",
+    "Main/sets.md",
+    "Main/Power_Set_Size.md",
+    "Main/Set_Equivalence.md",
+    "Category/Operating_Systems.md",
+    "Category/Programming_Fundamentals.md",
     "Index/Algorithm.md",
     "Index/Graphs.md",
     "Category/Programming_Design_Principles.md",
     "Category/Object_Oriented_Programming.md",
-    "Category/Operating_Systems.md",
-    "Category/Propositional_Logic.md",
     "Category/data_structures.md",
     "Category/Networks.md",
-    "Category/Programming_Fundamentals.md",
     "Category/sorting_algorithms.md",
     "Category/searching_algorithms.md",
     "Main/Security_Protocol.md",
@@ -245,19 +254,9 @@
     "Attachments/OSIVulnerabilities.png",
     "Main/Cryptography.md",
     "Attachments/TLSHandshake.png",
-    "Main/Network_address_translation.md",
     "Attachments/NATTraversalDiagram.png",
-    "Main/UDP.md",
-    "Main/TCP.md",
-    "Template/Index.md",
     "Attachments/UDPvsTCPTable.png",
-    "Main/SCTP.md",
     "Attachments/VectorProtocolDiagram.png",
-    "Attachments/MFBitDiagram.png",
-    "Attachments/hourglassProtocolStack.png",
-    "Attachments/LinkContentionDiagram.png",
-    "Attachments/Pasted image 20241127131728.png",
-    "Attachments/ethernetDiagram.png",
     "Attachments",
     "Template/index",
     "Template/category",

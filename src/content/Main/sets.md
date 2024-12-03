@@ -2,7 +2,8 @@
 date: 2024-11-03 16:11
 tags:
   - mathmatics
-category: "[[]]"
+  - sets
+category: "[[Propositional_Logic]]"
 ---
 # sets
 A set is an **unordered** collection of **elements** or **members**.
@@ -19,7 +20,7 @@ The set can represent any set, such as:
 - etc...
 Sets can be compared by using [[Set_Equivalence|Set Equivalence]].
 ## Properties
--  **Uniqueness**: each element only appears once in a set.
+- **Uniqueness**: each element only appears once in a set.
 - **Unordered**: The order does not matter, so {1,2} $\equiv$ {2,1}.
 ## Set Notation
 ##### Empty Set notation:($\emptyset$)

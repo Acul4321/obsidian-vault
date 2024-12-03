@@ -4,7 +4,8 @@ tags:
   - computing
 ---
 ## Operating Systems
-#### processes
+#### Computer Systems Organization and Operating Systems Functions
+#### Processes
 #### Memory
 #### Storage
-#### Sustainability of computer systems
+#### Sustainability Considerations

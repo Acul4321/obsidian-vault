@@ -39,6 +39,12 @@ jobs:
       - name: Ensure Quartz builds, check bundle info
         run: npx quartz build --bundleInfo
         working-directory: ./src
+        
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: ./src/public
 
   deploy:
     needs: build-and-test

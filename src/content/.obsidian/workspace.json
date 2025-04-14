@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d11cbb6a55ad4f64",
+            "id": "75ba041224ccac51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Category/Linux.md",
+                "file": "Category/sorting_algorithms.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "sorting_algorithms"
             }
           },
           {
-            "id": "e9f277bb9b3cc137",
+            "id": "a7a0a8eeefa13a79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main/C.md",
+                "file": "Main/comparison_sorting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C"
+              "title": "comparison_sorting"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,40 +254,40 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e9f277bb9b3cc137",
+  "active": "75ba041224ccac51",
   "lastOpenFiles": [
-    "Main/bash_script.md",
+    "Main/radix_sort.md",
+    "Main/comparison_sorting.md",
+    "Category/sorting_algorithms.md",
+    "Main/counting_sort.md",
+    "Main/quick_sort.md",
+    "Main/heap_sort.md",
+    "Main/insertion_sort.md",
+    "Main/merge_sort.md",
+    "Category/data_structures.md",
+    "Template/code/Python-codeBlock.md",
     "Category/Linux.md",
-    "Attachments/BashScriptingGuide.pdf",
+    "Category/searching_algorithms.md",
+    "Template/Index.md",
+    "Category/Programming_Design_Principles.md",
+    "Category/Countability.md",
+    "Category/Networks.md",
+    "Category/Operating_Systems.md",
+    "Category/Programming_Fundamentals.md",
     "Main/C.md",
+    "Main/bash_script.md",
+    "Attachments/BashScriptingGuide.pdf",
     "Main/Shell.md",
     "Main/Operating System.md",
     "Main/command_line.md",
     "Main/Transport_Layer.md",
     "Main/process.md",
     "Main/linux_commands.md",
-    "Main/standard_directories.md",
-    "Main/pattern_matching.md",
-    "Main/file_permissions.md",
     "Attachments/Pasted image 20250409144825.png",
     "Attachments/Pasted image 20250409144741.png",
-    "Main/| 50%.md",
     "Attachments/permission_string_format.png",
     "Attachments/permission_string_format.png",
     "Attachments/Pasted image 20250409143804.png",
-    "Category/Operating_Systems.md",
-    "Category/Object_Oriented_Programming.md",
-    "Main/Libraries.md",
-    "Main/Kernel.md",
-    "Category/sorting_algorithms.md",
-    "Category/searching_algorithms.md",
-    "Category/Propositional_Logic.md",
-    "Category/Programming_Fundamentals.md",
-    "Category/Programming_Design_Principles.md",
-    "Category/Networks.md",
-    "Category/data_structures.md",
-    "Category/Countability.md",
-    "index.md",
     "Attachments/OSIVulnerabilities.png",
     "Attachments/BijectiveFunction.png",
     "Attachments/SurjectiveFunction.png",

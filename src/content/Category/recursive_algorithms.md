@@ -4,7 +4,6 @@ tags:
   - recursiveAlgorithm
 ---
 ## Recursive Algorithms
-
 [[recursion]]
 
 ## Analysis of recursive algorithms

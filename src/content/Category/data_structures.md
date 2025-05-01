@@ -12,6 +12,8 @@ Used to abstract the structure of data from the data itself
 [[queue]]
 [[dequeue]]
 [[list]]
+[[map]]
+[[hash_table]]
 ### Trees
 [[binary_tree]]
 [[binary_search_tree]]

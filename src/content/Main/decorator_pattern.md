@@ -63,3 +63,4 @@ class BoldDecorator implements Text {
 ### Disadvantages
 - Many small classes.
 - Can get complex when used extensively.
+- complex wrapping behaviors is hard(two decorators trying to cancel out is harder to implement)

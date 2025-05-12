@@ -38,12 +38,29 @@ class ShapeFactory {
 }
 ```
 ```java title:Factory
-abstract class Dialog {
-    public void render() {
-        Button b = createButton(); b.render();
+class CircleFactory extends ShapeFactory {
+    public Shape createShape() {
+        return new Circle();
     }
-    protected abstract Button createButton();
 }
+
+class SquareFactory extends ShapeFactory {
+    public Shape createShape() {
+        return new Square();
+    }
+}
+
+ShapeFactory factory;
+
+String type = "circle";
+if (type.equals("circle")) {
+    factory = new CircleFactory();
+} else {
+    factory = new SquareFactory();
+}
+
+Shape shape = factory.createShape();
+shape.draw();
 ```
 ## Examples
 - UI toolkits that create different widgets for Mac/Windows.

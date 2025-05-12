@@ -8,6 +8,7 @@ category: "[[Programming_Design_Patterns]]"
 # Strategy Pattern
 ## What
 Encapsulates interchangeable behaviors and uses delegation to decide which one to use.
+Provide a common interface to family of interchangeable algorithms
 ## When
 You have several ways to do the same job, and callers must pick/swap them at run time.
 You have a large `if-else` or `switch` deciding which algorithm to use.

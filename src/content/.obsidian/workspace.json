@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Category/Programming_Design_Patterns.md",
+                "file": "Main/singleton_pattern.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Programming_Design_Patterns"
+              "title": "singleton_pattern"
             }
           }
         ]
@@ -232,20 +232,20 @@
   },
   "active": "b0a20d4cb0db2f43",
   "lastOpenFiles": [
-    "Main/command_pattern.md",
     "Category/Programming_Design_Patterns.md",
-    "Main/singleton_pattern.md",
     "Main/factory_pattern.md",
     "Main/adaptor_pattern.md",
     "Main/composite_pattern.md",
     "Main/decorator_pattern.md",
+    "Main/command_pattern.md",
     "Main/observer_pattern.md",
-    "Main/state_pattern.md",
     "Main/Iterator_pattern.md",
     "Main/strategy_pattern.md",
+    "Main/state_pattern.md",
+    "Category/Programming_Design_Principles.md",
+    "Main/singleton_pattern.md",
     "Category/data_structures.md",
     "Attachments/Pasted image 20250506180438.png",
-    "Category/Programming_Design_Principles.md",
     "Main/map.md",
     "Main/AVL_tree.md",
     "Main/traversal.md",

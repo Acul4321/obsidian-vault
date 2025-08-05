@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d8802a664faf5d09",
+        "id": "ddf0fc57c0e1fbf5",
         "type": "tabs",
         "children": [
           {
-            "id": "b0a20d4cb0db2f43",
+            "id": "1718a892ea753795",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main/singleton_pattern.md",
+                "file": "Main/Tea.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "singleton_pattern"
+              "title": "Tea"
             }
           }
         ]
@@ -230,8 +230,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b0a20d4cb0db2f43",
+  "active": "477fb884671e1c01",
   "lastOpenFiles": [
+    "Main/Tea.md",
+    "Main/binary_search_tree.md",
+    "Main/Untitled 1.md",
+    "Main/singleton_pattern.md",
     "Category/Programming_Design_Patterns.md",
     "Main/factory_pattern.md",
     "Main/adaptor_pattern.md",
@@ -243,7 +247,6 @@
     "Main/strategy_pattern.md",
     "Main/state_pattern.md",
     "Category/Programming_Design_Principles.md",
-    "Main/singleton_pattern.md",
     "Category/data_structures.md",
     "Attachments/Pasted image 20250506180438.png",
     "Main/map.md",
@@ -253,12 +256,9 @@
     "Main/red-black_tree.md",
     "Main/list.md",
     "Main/b_trees.md",
-    "Main/binary_search_tree.md",
     "Main/linked_list.md",
     "Main/queue.md",
     "Main/dequeue.md",
-    "Main/stack.md",
-    "Category/recursive_algorithms.md",
     "Attachments/FibRecursionTree.png",
     "Attachments/Pasted image 20250429144508.png",
     "Attachments/DATMap.png",

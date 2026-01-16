@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ddf0fc57c0e1fbf5",
+        "id": "e32479dfcb7cd13e",
         "type": "tabs",
         "children": [
           {
-            "id": "1718a892ea753795",
+            "id": "2a05626b1c18ee39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main/Tea.md",
+                "file": "Daily/2026-01-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tea"
+              "title": "2026-01-13"
+            }
+          },
+          {
+            "id": "a432ffbd4d507612",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily/2026-01-16.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-16"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,8 +186,8 @@
             "state": {
               "type": "code-execute-manage-executors",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "code-execute-manage-executors"
             }
           },
           {
@@ -218,6 +243,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -230,35 +256,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "477fb884671e1c01",
+  "active": "a432ffbd4d507612",
   "lastOpenFiles": [
-    "Main/Tea.md",
-    "Main/binary_search_tree.md",
+    "Daily/2026-01-16.md",
+    "Template/main/course_starter.md",
+    "Template/category.md",
+    "Daily/2026-01-13.md",
+    "Daily/Untitled.md",
+    "Main/Untitled.md",
+    "Category/Networks.md",
+    "Main/Untitled 3.md",
     "Main/Untitled 1.md",
-    "Main/singleton_pattern.md",
+    "Main/Untitled 2.md",
+    "Daily",
+    "Category/data_structures.md",
+    "Category/Countability.md",
+    "Category/Linux.md",
+    "Category/Object_Oriented_Programming.md",
+    "Category/Operating_Systems.md",
+    "Category/Programming_Design_Principles.md",
+    "Category/sorting_algorithms.md",
+    "Category/searching_algorithms.md",
+    "Category/recursive_algorithms.md",
+    "Category/Propositional_Logic.md",
+    "Category/Programming_Fundamentals.md",
     "Category/Programming_Design_Patterns.md",
-    "Main/factory_pattern.md",
-    "Main/adaptor_pattern.md",
-    "Main/composite_pattern.md",
-    "Main/decorator_pattern.md",
-    "Main/command_pattern.md",
-    "Main/observer_pattern.md",
-    "Main/Iterator_pattern.md",
+    "Main/TCP.md",
     "Main/strategy_pattern.md",
     "Main/state_pattern.md",
-    "Category/Programming_Design_Principles.md",
-    "Category/data_structures.md",
+    "Main/standard_directories.md",
     "Attachments/Pasted image 20250506180438.png",
-    "Main/map.md",
-    "Main/AVL_tree.md",
-    "Main/traversal.md",
-    "Main/binary_tree.md",
-    "Main/red-black_tree.md",
-    "Main/list.md",
-    "Main/b_trees.md",
-    "Main/linked_list.md",
-    "Main/queue.md",
-    "Main/dequeue.md",
     "Attachments/FibRecursionTree.png",
     "Attachments/Pasted image 20250429144508.png",
     "Attachments/DATMap.png",
@@ -268,7 +295,6 @@
     "Attachments/RBTreeCase3.png",
     "Attachments/RBTreeCase2.png",
     "Attachments/RBTreeCase1.png",
-    "Untitled",
     "Index",
     "Attachments/BashScriptingGuide.pdf",
     "Attachments",

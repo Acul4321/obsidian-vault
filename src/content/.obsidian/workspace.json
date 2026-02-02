@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e32479dfcb7cd13e",
+        "id": "63973aa658679c8e",
         "type": "tabs",
         "children": [
           {
-            "id": "2a05626b1c18ee39",
+            "id": "40e19ac0d045a449",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-01-13.md",
+                "file": "Category/Competitive_Programming.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-13"
-            }
-          },
-          {
-            "id": "a432ffbd4d507612",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/2026-01-16.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-16"
+              "title": "Competitive_Programming"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -256,21 +231,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a432ffbd4d507612",
+  "active": "40e19ac0d045a449",
   "lastOpenFiles": [
-    "Daily/2026-01-16.md",
-    "Template/main/course_starter.md",
-    "Template/category.md",
-    "Daily/2026-01-13.md",
-    "Daily/Untitled.md",
+    "Main/Untitled 1.md",
     "Main/Untitled.md",
+    "Main/Untitled.base",
+    "Category/Competitive_Programming.md",
+    "Main/Tea.md",
+    "Template/Index.md",
+    "Template/category.md",
+    "Template/main/course_starter.md",
+    "Template/math/sumation.md",
+    "index.md",
+    "Category/Countability.md",
+    "Daily/2026-01-13.md",
+    "Daily/2026-01-23.md",
+    "Daily/2026-01-16.md",
+    "Daily/Untitled.md",
     "Category/Networks.md",
     "Main/Untitled 3.md",
-    "Main/Untitled 1.md",
     "Main/Untitled 2.md",
     "Daily",
     "Category/data_structures.md",
-    "Category/Countability.md",
     "Category/Linux.md",
     "Category/Object_Oriented_Programming.md",
     "Category/Operating_Systems.md",
@@ -278,13 +260,6 @@
     "Category/sorting_algorithms.md",
     "Category/searching_algorithms.md",
     "Category/recursive_algorithms.md",
-    "Category/Propositional_Logic.md",
-    "Category/Programming_Fundamentals.md",
-    "Category/Programming_Design_Patterns.md",
-    "Main/TCP.md",
-    "Main/strategy_pattern.md",
-    "Main/state_pattern.md",
-    "Main/standard_directories.md",
     "Attachments/Pasted image 20250506180438.png",
     "Attachments/FibRecursionTree.png",
     "Attachments/Pasted image 20250429144508.png",
@@ -302,7 +277,6 @@
     "Template/category",
     "course",
     "Template/main",
-    "Template/math",
-    "Template/code"
+    "Template/math"
   ]
 }

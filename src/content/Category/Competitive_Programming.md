@@ -24,7 +24,7 @@ tags:
 - Compiler optimizations
 - Understanding generated assembly (optional but elite)
 ---
-## 4. Time & Space Complexity
+## 3. Time & Space Complexity
 **(Core survival knowledge)**
 - Time complexity rules
 - Complexity classes
@@ -33,7 +33,7 @@ tags:
 - Lower bounds
 - Amortized analysis
 ---
-## 5. Sorting & Searching
+## 4. Sorting & Searching
 ### Sorting
 - Sorting theory
 - Bubble sort
@@ -47,31 +47,31 @@ tags:
 - Ternary search
 - Searching optimal solutions
 ---
-## 6. Data Structures
-### 6.1 Basic Structures
+## 5. Data Structures
+### 5.1 Basic Structures
 - Arrays
 - Dynamic arrays (vectors)
 - Deques
 - Stacks & queues
-### 6.2 Ordered Structures
+### 5.2 Ordered Structures
 - Sets & multisets
 - Maps
 - Priority queues
 - Policy-based data structures
-### 6.3 Range Query Structures
+### 5.3 Range Query Structures
 - Prefix sums
 - Binary Indexed Trees (Fenwick Trees)
 - Segment Trees
 - Lazy propagation
 - Dynamic segment trees
 - 2D segment trees
-### 6.4 Advanced / Custom Structures
+### 5.4 Advanced / Custom Structures
 - Treaps
 - Union-Find (Disjoint Set Union)
 - Data structures inside nodes
 - Merging data structures
 ---
-## 8. Greedy Algorithms
+## 6. Greedy Algorithms
 - When greedy works / fails
 - Coin problems
 - Scheduling
@@ -88,7 +88,7 @@ tags:
 - Heuristic pruning
 - Meet in the middle
 ---
-## 9. Dynamic Programming
+## 8. Dynamic Programming
 ### Core DP Concepts
 - Optimal substructure
 - Overlapping subproblems
@@ -111,7 +111,7 @@ tags:
     - Divide & Conquer optimization
     - Knuth’s optimization
 ---
-## 14. String Algorithms
+## 9. String Algorithms
 ### Basic
 - String terminology
 - Trie structures
@@ -196,8 +196,8 @@ tags:
 - Parallel binary search
 - Dynamic connectivity
 ---
-## 3. Mathematics for Competitive Programming
-### 3.1 Number Theory
+## 13. Mathematics for Competitive Programming
+### 13.1 Number Theory
 - Primes & factorization
 - Sieve of Eratosthenes
 - GCD & Euclid’s algorithm
@@ -205,35 +205,35 @@ tags:
 - Modular exponentiation
 - Euler’s theorem
 - Solving linear & modular equations
-### 3.2 Combinatorics
+### 13.2 Combinatorics
 - Binomial coefficients
 - Catalan numbers
 - Inclusion–exclusion principle
 - Burnside’s lemma
 - Cayley’s formula
 - Counting permutations & subsets
-### 3.3 Probability
+### 13.3 Probability
 - Events & probability calculations
 - Random variables
 - Expected values
 - Markov chains
 - Randomized algorithms
-### 3.4 Linear Algebra & Matrices
+### 13.4 Linear Algebra & Matrices
 - Matrix operations
 - Linear recurrences
 - Matrix exponentiation
 - Gaussian elimination
 - Graphs represented as matrices
-### 3.5 Game Theory
+### 13.5 Game Theory
 - Game states
 - Nim game
 - Sprague–Grundy theorem
-### 3.6 Fourier Transform
+### 13.6 Fourier Transform
 - Polynomial multiplication
 - FFT algorithm
 - Convolution
 ---
-## 13. Geometry
+## 14. Geometry
 ### Core Geometry
 - Complex numbers
 - Points & vectors

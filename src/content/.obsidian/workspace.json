@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Category/Competitive_Programming.md",
+                "file": "Main/Programming_Languages.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Competitive_Programming"
+              "title": "Programming_Languages"
             }
           }
         ]
@@ -233,10 +233,11 @@
   },
   "active": "40e19ac0d045a449",
   "lastOpenFiles": [
+    "Main/Programming_Languages.md",
+    "Category/Competitive_Programming.md",
     "Main/Untitled 1.md",
     "Main/Untitled.md",
     "Main/Untitled.base",
-    "Category/Competitive_Programming.md",
     "Main/Tea.md",
     "Template/Index.md",
     "Template/category.md",

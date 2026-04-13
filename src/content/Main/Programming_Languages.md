@@ -307,3 +307,100 @@ Back-patching
 ![[{D6067ADF-7022-416E-B964-D212B6008EDA}.png]]
 ![[{4E1BC994-F9C1-4E49-9615-5F2982D92ADD}.png]]
 ![[{98E8F52D-F0EA-4A62-8C68-4B0995AFD462}.png]]
+
+# Native Code Generation
+![[{EF9E959F-4931-4EA2-B13B-7AAAB21CF45B}.png|300]]
+We want to compile natively for:
+- Performance: There is no *interpretation overhead*: code is run directly by the hardware • We can also make use of *architecture-specific optimisations*
+- Bootstrapping: bytecode interpreters need to be written in a compiled language!
+- Systems programming: often need to write very low-level code (e.g. that makes use of system calls or inline assembly)
+- JIT compilers: can use native-code compilation while interpreting in order to compile based on profiling information
+## Compilation
+![[{5F4E11A1-8B3B-4113-A90D-21F2E9FDC900}.png]]
+## Intermediate Representations
+![[{E3C7280C-8761-42D6-B1AA-66193BC25DDA}.png]]
+While it is *possible* to go directly from a program to native code, it is better to compile to an *intermediate representation* first.
+
+Our IR will form a *single tree*
+The IR will contain two entities:
+- Expressions: these return a value 
+- Statements: these perform side-effects
+labels: these are program locations that we can jump to
+### Tree based IR
+![[{08704C54-FD37-49C6-8938-92EA485F9061}.png]]
+![[{1AC94945-8662-447C-AD11-BF7E4AC32274}.png]]
+## Control-Flow Graphs
+
+> [!NOTE]- Basic Blocks (BB)
+> translating a expression into a sequence of instructions
+> ![[{8A8C039C-BA4C-4EA9-B9DA-920EA2D0007E}.png]]
+> each instruction is a Three-address code
+> ![[{12B06FC4-BA9C-4424-9A17-4C74C9A1BCE1}.png]]
+
+- Each node is a basic block
+- Each edge is a jump to another BB (either an *explicit*, *possibly conditional jump*, or a fall-through)
+- We mark one BB as the entry point, and one as the exit point
+![[{1886CD5C-54AB-4DF4-86BF-030738B339F1}.png]]
+## Liveness
+gives us the information we can use to allocate variables to physical registers
+- to do **Liveness analysis** we consider a *variable* live from where it is *defined* to its *final use*
+### Liveness in a Basic Block
+the registers required is calculated/allocated based on non-overlapping liveness ranges
+![[{6C22805A-BB20-4D83-8B0E-44F6B808F843}.png]]
+### Liveness in a Control-Flow Graph
+![[{A9F24360-AA5F-4480-91A1-91B88605A6D1}.png]]
+- b and n are only live in BB1
+- p is live everywhere (path from assignment both to the return and through the loop)
+- m and q are live everywhere except BB6
+- t1 is only live in BB2
+- t2 is only live in BB3
+### Definitions
+- A node has *out-edges* that lead to **successor nodes**: example the out-edges of node 2 are:
+	- 2 → 3 and 2 → 6 and succ(2) = { 3, 6 }
+- A node has *in-edges* that come from **predecessor nodes**: example the in-edges of node 5 are:
+	- 3 → 5 and 4 → 5 and pred(5) = { 3, 4 }
+- An assignment to a variable in a node **defines** that variable: example: 
+	- def(1) = {p, q, m}
+- A node **uses** a variable if it appears on the right-hand side of an assignment: example:
+	- use(1) = { b, n }
+#### Dataflow Equations
+![[{769A3686-F085-4B84-B3D6-4C2AE0163057}.png]]
+![[{6C85F4FB-FFBD-41B4-8355-F26A6D03FDE7}.png]]
+![[{713BF4FF-A973-41A4-9E62-55994248807E}.png]]
+#### Solving Dataflow Equations
+we start from an empty set and *iterate the equations*, we will eventually arrive at a **fixpoint**: future iterations will not change the sets
+	Since we are trying to trace how data flows from its *uses* to its *definitions*, it is more efficient to process the CFG **backwards**
+![[{225FA28D-AAA9-4E15-ADE9-D0C26A110295}.png]]
+![[{952F70DF-70B7-4C14-B54D-251DF216778D}.png]]
+![[{DBB9F7B7-626C-47C3-A93B-8DF9F8C7B0EF}.png]]
+## Register Allocation
+we allocate Register using graph colouring on a interference Graph.
+### Interference graph
+- Every variable is a vertex / node in the graph
+- We add an edge between two variables if they are live at the same time (i.e., simultaneously occur in a node's live-out set).
+![[{EB9B20D4-01B1-412D-A03E-4F2626C8EC3D}.png]]
+Sometimes we will get a graph that we *cannot colour with the available number of registers*: in this case we will need to write the variable to memory. This is called **spilling**
+## Instruction Selection
+![[{51044411-A30B-44B7-85E2-D7EA8DDFD140}.png]]
+![[{4A22C396-56D1-471E-9906-E6E61CC7013B}.png]]
+Often there are multiple different ways of compiling the same IR – we ideally want to optimise for, for example the smallest number, or most efficient instructions, this is a job for Instruction selection
+### Binary Operations
+![[{9513488A-9DB0-48A0-BDDF-30F7CCAC2B41}.png]]
+### Load Operations
+![[{EC0BA800-1C71-4D17-A16F-9D039549A2E1}.png]]
+Move statements (*stores*) follow a similar pattern
+### Control Flow: Jumps
+There are two types of unconditional jumps: a *direct jump* to a name, or an *indirect jump* to the address contained in a register
+![[{A4A53EE9-B775-45DE-8717-F9CC558623B1}.png]]
+Conditional jumps are similar: we match on the binary operator and generate the corresponding branch instruction
+### Instruction Selection Algorithm: Maximal Munch
+Say we have some IR tree t and a set of instruction patterns ps. To cover t using ps:
+```
+maximalMunch(t, ps): 
+	p = largest pattern in ps that covers the top of t 
+	uncoveredSubtrees = subtrees of t not covered by p 
+	for s in uncoveredSubtrees: 
+		maximalMunch(s, ps) 
+	emit(t, p) // emit code for pattern p
+```
+The algorithm is linear in the size of t and produces a minimal number of instructions for the given pattern set

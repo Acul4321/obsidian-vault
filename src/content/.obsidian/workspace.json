@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main/Programming_Languages.md",
+                "file": "Main/Data_Fundamentals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Programming_Languages"
+              "title": "Data_Fundamentals"
             }
           }
         ]
@@ -233,22 +233,26 @@
   },
   "active": "40e19ac0d045a449",
   "lastOpenFiles": [
-    "Attachments/{A4A53EE9-B775-45DE-8717-F9CC558623B1}.png",
-    "Attachments/{EC0BA800-1C71-4D17-A16F-9D039549A2E1}.png",
-    "Attachments/{9513488A-9DB0-48A0-BDDF-30F7CCAC2B41}.png",
-    "Attachments/{4A22C396-56D1-471E-9906-E6E61CC7013B}.png",
-    "Attachments/{51044411-A30B-44B7-85E2-D7EA8DDFD140}.png",
-    "Attachments/{EB9B20D4-01B1-412D-A03E-4F2626C8EC3D}.png",
-    "Attachments/{DBB9F7B7-626C-47C3-A93B-8DF9F8C7B0EF}.png",
-    "Attachments/{952F70DF-70B7-4C14-B54D-251DF216778D}.png",
-    "Attachments/{225FA28D-AAA9-4E15-ADE9-D0C26A110295}.png",
-    "Attachments/{713BF4FF-A973-41A4-9E62-55994248807E}.png",
-    "Attachments/{6C85F4FB-FFBD-41B4-8355-F26A6D03FDE7}.png",
-    "Main/Untitled.md",
+    "Attachments/{CD2A6DDD-FFC4-4707-AC9F-FDFBDF2B2BFA}.png",
+    "Attachments/{0784C6DC-41E8-4AAC-BB7F-7F2631A0D387}.png",
+    "Attachments/{64D55153-33B2-4DB1-8E19-1D08493BF64E}.png",
+    "Attachments/{CA532852-76FA-4A8E-971C-952C3C219A1D}.png",
+    "Attachments/{C0054184-D696-4B2C-90D8-3F02A4FB3CB2}.png",
+    "Attachments/{83AB67C7-E2C2-4565-A240-EBA28385C7B3}.png",
+    "Attachments/{25FD56E2-EE56-49EC-81D2-FA3D29A7D5DE}.png",
+    "Attachments/{4B27445A-BE72-4CAB-B3CD-F3F34EF61899}.png",
+    "Attachments/{291222B2-2425-42B2-B0FF-0E70AE4EBB81}.png",
+    "Attachments/{2C6C915E-D3B4-4E24-88F6-82D718467969}.png",
+    "Attachments/{A58BB45E-39BB-48DD-982F-DD81D76A3D01}.png",
+    "Main/factory_pattern.md",
+    "Category/Programming_Design_Patterns.md",
+    "Main/singleton_pattern.md",
+    "Main/Data_Fundamentals.md",
     "Main/Programming_Languages.md",
+    "Main/Untitled 1.md",
+    "Main/Untitled.md",
     "Main/Iterator_pattern.md",
     "Category/Competitive_Programming.md",
-    "Main/Untitled 1.md",
     "Main/Untitled.base",
     "Main/Tea.md",
     "Template/Index.md",
@@ -267,10 +271,6 @@
     "Daily",
     "Category/data_structures.md",
     "Category/Linux.md",
-    "Category/Object_Oriented_Programming.md",
-    "Category/Operating_Systems.md",
-    "Category/Programming_Design_Principles.md",
-    "Category/sorting_algorithms.md",
     "Index",
     "Attachments/BashScriptingGuide.pdf",
     "Attachments",

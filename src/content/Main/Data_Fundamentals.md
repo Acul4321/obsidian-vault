@@ -93,14 +93,15 @@ $$
 - **Einstein summation notation** compact notation to exchange array dimensions, and also compute sums and products 
 - **First rule of vectorisation**: no `for` loops
 ### Formulae
-#### Floating point representation
+#### Relative precision
+##### Floating point representation
 Relative **precision** of **floating point representation**
 $$
 \underbrace{\epsilon}_{\text{Relative error}} = 
 \frac{\mid {\overbrace{float(x)}^{\text{Closest floating-point number}}}-{\overbrace{x}^{\text{Real number}}} \mid}
 {\underbrace{\mid x \mid}_{\text{Absolute value of real number}}}
 $$
-#### Machine Epsilon
+##### Machine Epsilon
 IEEE754 guarantee for **relative precision** (machine precision $\epsilon$) for a $t$ bit mantissa floating point number.
 $$
 \underbrace{\epsilon}_{\text{Relative error}} = \frac{1}{2}\cdot 2^{\overbrace{-t}^{\text{Bits in the mantissa}}} = 2^{-(t+1)}
@@ -222,8 +223,85 @@ $$
 - **skew-symmetric matrix** A matrix with elements mirrored around the diagonal, but negated on one side
 - **sparse** A matrix that mainly consists of zeros, with a few sparse nonzero elements
 ### Formulae
-![[{C0054184-D696-4B2C-90D8-3F02A4FB3CB2}.png]]
-![[{72919A3A-315C-4941-A049-13B743CFA469}.png]]
+#### Vectors
+##### Addition of two vectors
+$$
+x + y =  [x_{1} + y_{1},x_{2}+y_{2,\dots,x_{n}+y_{n}}]
+$$
+##### Scalar multiplication a vector
+$$
+cx = [cx_{1},cx_{2},\dots,cx_{n}]
+$$
+##### Linear interpolation of two vectors (Linear Interpolation)
+$$
+lerp(\overbrace{x}^{\text{vector}} ,\overbrace{y}^{\text{vector}},\overbrace{\alpha}^{\text{scalor}}) = \underbrace{(1-\alpha)x}_{\text{Proportion of vector x}} + \underbrace{\alpha y}_{\text{Proportion of vector y}}
+$$
+##### Cosine similarity
+Cosine of angle between two vectors in terms of normalised dot product 
+$$
+\underbrace{\cos \theta}_{\text{Angle between x and y}}= \frac{\overbrace{x}^{\text{vector}}  \cdot \overbrace{y}^{\text{vector}} }{\underbrace{|| x ||}_{\text{Norm of x}} \space \underbrace{|| y ||}_{\text{Norm of y}}}
+$$
+##### Dot product / inner product
+$$
+x \cdot y = \sum_{i}x_{i}y_{i}
+$$
+##### Mean vector
+$$
+\underbrace{mean(\vec{x_{1}},\vec{x_{2}},\dots,\vec{x_{n}})}_{\text{Mean vector}}= \underbrace{\frac{1}{N}}_{\text{Number of points}} \sum_{i}\underbrace{\vec{x_{i}}}_{\text{Vectors}}
+$$
+#### Matrix
+##### Definition of linearity (for a linear function $f$ and equivalent matrix $A$)
+$$
+\begin{align}
+f(x+y) = f(x) +f(y) &= A(x+y) = Ax+Ay, \newline
+
+f(cx)= cf(x) &= A(cx) = cAx,
+\end{align}
+$$
+##### Matrix addition
+$$
+A + B = 
+\begin{bmatrix}  
+a_{1,1}+b_{1,1} & a_{1,2}+b_{1,2} & \dots & a_{1,m}+b_{1,m}\\  
+a_{2,1}+b_{2,1} & a_{2,2}+b_{2,2} & \dots & a_{2,m}+b_{2,m}\\ \\
+\dots \\ \\
+a_{n,1}+b_{n,1} & a_{n,2}+b_{n,2} & \dots & a_{n,m}+b_{n,m}
+\end{bmatrix}
+$$
+##### Scalar matrix multiplication
+$$
+cA = 
+\begin{bmatrix}  
+ca_{1,1} & ca_{1,2} & \dots & ca_{1,m}\\  
+ca_{2,1} & ca_{2,2} & \dots & ca_{2,m}\\
+\dots \\
+ca_{n,1} & ca_{n,2} & \dots & ca_{n,m}
+\end{bmatrix}
+$$
+##### **Matrix multiplication**
+$$
+\underbrace{C_{ij}}_{\text{Element ij of C}} = \sum_{k}\underbrace{a_{ik}}_{\text{Row i of A}} \overbrace{b_{kj}}^{\text{Column j of B}}
+$$
+##### Outer product (matrix version)
+$$
+x \otimes y = x^T
+y$$
+##### Inner product (matrix version)
+$$
+x \cdot y=xy^T
+$$
+##### Covariance
+$$
+\underbrace{C_{ij}}_{\text{Element of covariance matrix }\sum} = 
+\frac{1}{N} \sum_{k=1}^N
+\Biggl( \underbrace{(x_{k,i}- \mu_{i})}_{\text{Centered data (i-th component)}} \Biggr)
+\Biggl(\underbrace{(x_{k,j}- \mu_{j})}_{\text{Centered data (j-th component)}} \Biggr)
+$$
+##### Covariance Matrix
+$$
+\underbrace{\sum}_{\text{Covariance matrix}} = \frac{1}{N} \underbrace{(X-\mu)}_{\text{Centered data matrix}}
+\overbrace{(X-\mu)^T}^{\text{Transpose fo centered data}}
+$$
 ## Unit 5 - Linear
 - **discrete-continuous interchange** representing apparently discrete problems as continuous problems, and vice versa; e.g. machine translation of strings (discrete) via vector spaces (continuous)
 - **directed graph** a graph where edges are directional
@@ -451,18 +529,18 @@ $$
 - **Gaussian** / **normal distribution** A very important distribution which has many nice mathematical properties. Widely used as an approximation.
 - **central limit theorem** a result which indicates that _any_ set of observations which is really the sum of many independent random factors will tend to a normal distribution.
 - **properties of distributions**
-    - **location** the "shifting" of a distribution; the **location** of the normal distribution is the mean $\micro$
+    - **location** the "shifting" of a distribution; the **location** of the normal distribution is the mean $\mu$
     - **scale** the "spread" of a distribution; the **spread** of the normal distribution is $\sigma$
     - **support** the values for which the distribution has non-zero probability
     - **compact support** a distribution which has a fixed range of possible values, like the uniform distribution over the range $[a,b]$; values less than $a$ or more than $b$ are impossible (probability zero)
     - **infinite support** a distribution that has an infinite range of possible values. The normal distribution has infinite support
 - **statistics** functions of data that summarise the data in some way, like the mean
-- **estimators** statistics which estimate some unknown parameter of a generating process. The sample mean is an estimator of the parameter $\micro$ of a normal distribution
+- **estimators** statistics which estimate some unknown parameter of a generating process. The sample mean is an estimator of the parameter $\mu$ of a normal distribution
 - **maximum likelihood estimation** the process of finding a set of parameters that "best explains" observations by optimisation
 - **multivariate distributions** probability distributions over multiple dimensions, like $\mathbb{R}^N$
 - **univariate** probability distributions over a single dimension, like $\mathbb{R}$
 - **multivariate normal** the normal distribution generalised to $\mathbb{R}^N$. It is parameterised by:
-    - **mean vector** $\micro$, which specifies a point where the distribution is cantered
+    - **mean vector** $\mu$, which specifies a point where the distribution is cantered
     - **covariance matrix** $\sum$ which specifies how the distribution is shaped, effectively as an ellipsoidal shape
 - **joint probability density** the probability density function for a multivariate distribution, where each dimension can be seen as a different random variable
 - **marginal probability density** the probability density function for a specific variable in a multivariate distribution, which can be computed by integrating over all of the other dimensions
@@ -521,7 +599,22 @@ $$
 - **posterior** estimated distribution of the model parameters after observing data (via Bayesian inference)
 - **predictive posterior** the estimated distribution over observations given a posterior distribution
 ### Formulae
-![[{0784C6DC-41E8-4AAC-BB7F-7F2631A0D387}.png]]
+##### **Expectation of a random variable**
+$$
+\mathbb{E}[X] = \int_{x} fx(x)dx
+$$
+##### **Expectation of a function of a random variable**
+$$
+\mathbb{E}[g(X)] = \int_{x} fx(x)g(x)dx
+$$
+##### Acceptance probability for Metropolis-Hastings jump from $x$ to $x'$
+$$
+P(\text{accept})=
+\begin{cases}
+f_{X}(x') / {f_X(x)}, & f_X(x)>f_X(x')\\
+1, & f_X(x)\leq f_X(x')
+\end{cases}
+$$
 ## Unit 10 - Signals
 - **sample** a measurement of a continuous signal at a precise instant or point
 - **quantisation** the reduction of a continuous signal to discrete steps
@@ -588,5 +681,31 @@ $$
 - **notch filter** / **bandstop filter** a filter which removes a band of frequencies, e.g. removing 50Hz mains hum
 - **filter design** the process of designing a filter in the time domain given frequency domain specifications
 ### Formulae
-![[{CD2A6DDD-FFC4-4707-AC9F-FDFBDF2B2BFA}.png]]
-![[{291222B2-2425-42B2-B0FF-0E70AE4EBB81}.png]]
+#### Signal
+##### Definition of Nyquist limit
+$$
+f_{n} = \frac{f_{s}}{2}
+$$
+##### Signal to noise ratio
+$$
+\begin{align}
+SNR &= \frac{S}{N}, \\ SNR_{dB} &= 10\log_{10}\left( \frac{S}{N} \right)
+\end{align}
+
+$$
+##### Exponential smoothing
+$$
+y[t] = \alpha y[t-1] + (1-\alpha)x[t]
+$$
+##### Convolution of sampled signals
+$$
+(x \cdot y)[n] = \sum_{m=-M}^{M}x[n]y[n-m]
+$$
+##### Fourier Transform
+$$
+\overbrace{F(\underbrace{\omega}_{Frequency}) = \int_{-\infty}^{\infty}}^{\text{Frequency domain}}
+\underbrace{f(t)}_{{\text{Time domain}}} \cdot
+\Biggl(
+\cos(\underbrace{\omega}_{\text{Frequency}} \cdot \underbrace{t}_{\text{Time}}) - i\cdot \sin(\underbrace{\omega}_{\text{Frequency}} \cdot \underbrace{t}_{\text{Time}})
+\Biggr) d\underbrace{t}_{\text{Time}}
+$$

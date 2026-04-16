@@ -51,10 +51,24 @@ Notation for a **vector**
 $$
 x
 $$
+$$
+x, x \in \mathbb{R}^{d}, x = [x_{1},x_{2},\dots,x_{d}]
+$$
 Notation for a **Matrix**
 $$
 A
 $$
+
+$$
+A, A \in \mathbb{R}^{n\times m},A = 
+\begin{bmatrix}  
+a_{1,1} & a_{1,2} & \dots & a_{1,m}\\  
+a_{2,1} & a_{2,2} & \dots & a_{2,m}\\ \\
+\dots \\ \\
+a_{n,1} & a_{n,2} & \dots & a_{n,m}
+\end{bmatrix}
+$$
+
 ## Unit 2 - Floats And Strided
 - **striding** The trick used to treat a flat sequence of numbers as a multidimensional array, by storing the offsets to jump to the next element in any dimension
 - **stride** the offset (in bytes, typically) to jump to get to the next value in a given dimension
@@ -250,6 +264,26 @@ $$
 \underbrace{mean(\vec{x_{1}},\vec{x_{2}},\dots,\vec{x_{n}})}_{\text{Mean vector}}= \underbrace{\frac{1}{N}}_{\text{Number of points}} \sum_{i}\underbrace{\vec{x_{i}}}_{\text{Vectors}}
 $$
 #### Matrix
+##### Identity Matrix
+$$
+I = \begin{bmatrix}
+1 & 0 & \dots & 0 \\
+0 & 1 & \dots & 0 \\ \dots\\
+0 & 0 & \dots & 1 \\
+\end{bmatrix}
+$$
+##### diagonal Matrix
+$$
+D = \begin{bmatrix}
+d_{1} & 0 & \dots & 0 \\
+0 & d_{2} & \dots & 0 \\ \dots\\
+0 & 0 & \dots & d_{n} \\
+\end{bmatrix}
+$$
+##### Non-singular Matrix
+$$
+AB \neq BA\text{(except in special cases)}, (AB)C = A(BC)
+$$
 ##### Definition of linearity (for a linear function $f$ and equivalent matrix $A$)
 $$
 \begin{align}
@@ -561,6 +595,18 @@ $$
 - **t-distributed** distributed according to the t-distribution, which has a much higher chance of generating extreme values than the normal distribution
 - **maximise likelihood** to find parameters that maximise the likelihood function for some fixed, known observations
 ### Formulae
+##### Probability of an event A
+$$
+ P(A), \text{an event is a subset of the sample space, i.e. a set of outcomes}
+$$
+##### Joint distribution
+$$
+P(A,B)
+$$
+##### Conditional from joint distribution
+$$
+P(A|B) = \frac{P(A,B)}{P(B)}
+$$
 ![[{64D55153-33B2-4DB1-8E19-1D08493BF64E}.png]]
 ## Unit 9 - Inference
 - **expectation** / **expected value** the "average" expected outcome of a random variable with a numerical value
